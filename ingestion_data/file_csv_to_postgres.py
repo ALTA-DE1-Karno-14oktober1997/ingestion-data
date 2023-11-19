@@ -57,7 +57,7 @@ class Load():
         password = "admin"
         host = "localhost"
         database = "mydb"
-        port = 5432
+        port = 5433
         conn_string = f"postgresql://{user}:{password}@{host}:{port}/{database}"
 
         self.engine = create_engine(conn_string) 
